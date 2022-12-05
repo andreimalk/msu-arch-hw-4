@@ -2,7 +2,7 @@
 #include <omp.h>
 #include <thread>
 
-std::chrono::milliseconds timeout(250);
+std::chrono::milliseconds timeout(150);
 
 void test(int first, int last)
 {
