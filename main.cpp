@@ -30,7 +30,7 @@ int main( )
     {
         test(1, 10);
 #pragma omp for ordered
-        for (i = 0 ; i < 5 ; i++)
+        for (i = 0 ; i <= 5 ; i++)
             test2(i);
     }
 }
